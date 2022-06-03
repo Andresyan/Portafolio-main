@@ -272,7 +272,7 @@ h1,h2,h3,h4,p{
     padding: 10px;
 }
 .content-scroll-second{
-    height: 15rem;
+    height: 16rem;
     display: flex;
     overflow-x: auto;
     justify-content: space-between;
@@ -327,4 +327,22 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #282B3C;
+}
+
+.scroll-style::-webkit-scrollbar {
+    height: 7px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+	background: #40c5d6;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #34B0BE;
+	border-radius: 10px;
 }

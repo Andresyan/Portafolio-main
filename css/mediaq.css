@@ -96,7 +96,7 @@
         height: 4rem;
     }
     .content-scroll-second{
-        height: 15rem;
+        height: 18rem;
     }
     .content-scroll-second img{
          height: 14rem;
@@ -181,7 +181,7 @@
        max-width: 800px;
    }
    .content-scroll-second{
-       height: 21rem;
+       height: 24rem;
    }
    .content-scroll-second img{
         height: 20rem;
@@ -192,7 +192,21 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .info-content{
-        max-width: 1100px;
+        max-width: 1200px;
     }
-   
+    .icon-content{
+        top: -40px;
+        max-width: 50rem;
+    }
+    .icon-card{
+        width: 10rem;
+        height: 6rem;
+    }
+    .content-scroll-second{
+        height: 35rem;
+    }
+    .content-scroll-second img{
+         height: 30rem;
+         min-width: 40rem;
+    }
 }
