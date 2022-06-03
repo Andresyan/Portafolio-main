@@ -1,0 +1,330 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #03051A;
+    font-family: 'Montserrat', sans-serif;
+}
+.hidden {
+    display: none;
+}
+nav {
+    text-align: right;
+    padding: 1rem 2rem;
+    background-color: #03051A;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    background-color: #282B3C;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 0;
+    z-index: 999;
+    padding: 1rem;
+}
+nav ul li {
+    padding: 0.5rem 0;
+}
+.blue-helper{
+    color: #40c5d6;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+}
+nav button {
+    border: 0;
+    background-color: transparent;
+}
+
+.content-img{
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #282B3C;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    background-image: url('../images/img-removebg-preview 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center bottom;
+    
+}
+.p-relative-helper{
+    position: relative;
+}
+.info-content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 50;
+    height: 13.5rem;
+    max-width: 400px;
+}
+.info-card{
+    text-align: left;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+.info-card hr{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    height: 2px;
+    width: 7.5rem;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+}
+.info-card h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.info-card h1{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #34B0BE;
+}
+.info-card p{
+    margin-top: 5px;
+    font-size:1.125rem;
+    font-weight: 200;
+}
+.info-card h4{
+    font-size: 1.125rem;
+    color: #34B0BE;
+}
+.button-icon{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    position: relative;
+    background-color: #D2CECB;
+    border-radius: 50%;
+    top: 20px;
+    padding: 0.4rem 0.9rem;
+    
+}
+.button-icon img{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.icon-content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    background-color: #282B3C;
+    border-radius: 10px;
+}
+.icon-card{
+    position: relative;
+    background-color: #D2CECB;
+    border-radius: 10px;
+    width: 3.75rem;
+    height: 2.5rem;
+}
+.icon-card img{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.container-pa{
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 800px;
+    margin: auto;
+}
+.subtitle-helper{
+    color: #34AFBE;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.container-pa p{
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 25px;
+    padding: 0.9rem;
+}
+.content-img-scroll{
+    height: 360px;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.card{
+    margin-top: 1rem;
+    height: 320px;
+    min-width: 240px;
+    margin-left: 1.25rem;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.card div{
+    width: 100%;
+    height: 144px;
+    background-image: url("../images/Ellipse\ 14.svg");
+    position: relative;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.card div img{
+    position: absolute;
+    width: 6.25rem;
+    height: 6.25rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.font-h3{
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+}
+.font-p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+.container-skill{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.skills{
+    width:100%;
+    max-width:600px;
+    padding:0 20px;
+    height: 200px;
+}
+.skill-name{
+    font-size:1.125rem;
+    font-weight:400;
+    margin:10px 0;
+    }
+    
+.skill-bar{
+    height:0.7rem;
+    background-color: white;
+    border-radius:5px;
+   }
+.skill-per{
+    height:0.7rem;
+    background-color: #40c5d6;
+    border-radius:5px;
+    position:relative;
+   }
+   
+.skill-per::before{
+    content:attr(per);
+    color: #40c5d6;
+    position:absolute;
+    padding:4px 6px;
+    border-radius:4px;
+    font-size:12px;
+    top:-25px;
+    right:0;
+    transform:translatex(50%);
+ }
+.margintop-helper{
+    margin-top: 2rem;
+    padding: 10px;
+}
+.content-scroll-second{
+    height: 15rem;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.content-scroll-second img{
+    height: 13rem;
+    min-width: 15rem;
+}
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.container-contact div{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #D2CECB;
+    background-image: url("../images/Ellipse\ 14.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 12rem;
+    height: 10rem;
+}
+.container-contact img{
+    margin-top: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+.box-left{
+    align-self: flex-start;
+}
+.box-right{
+    align-self: flex-end;
+}
+.container-contact h3{
+    font-size: 1.2rem;
+}
+.container-contact p{
+    font-size: 1rem;
+    color: rgb(109, 109, 109);
+}
+footer{
+    margin-top: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #282B3C;
+}

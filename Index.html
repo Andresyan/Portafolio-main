@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mediaq.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <title>Portafolio Andres</title>
+</head>
+<body>
+    <nav>
+        <button onclick="toggleMenu()">
+            <img src="./images/menu 1.svg">
+        </button>
+        <ul class="hidden" id="ul-nav">
+            <li><a class="blue-helper" href="#id-home">Home</a></li>
+            <li><a href="#id-servicios">Servicios</a></li>
+            <li><a href="#id-info">Acerca de mí</a></li>
+            <li><a href="#id-skill">Mis habilidades</a></li>
+            <li><a href="#id-port">Mi portafolio</a></li>
+            <li><a href="#id-contact">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <script src="./js/script.js"></script>
+    <div class="row p-relative-helper">
+        <div class="content-img" id="id-home"></div>
+        <div class="col-12 info-content">
+           <div class="info-card">
+                <h3>Soy</h3>
+                <h1>Andrés</h1>
+                <hr>
+                <p>Programador</p>
+                <p>full stack</p>
+            </div>
+            <div class="info-card ">
+                <h4>2 años</h4>
+                <p>experiencia</p>
+                <a href="#" class="button-icon"><img src="./images/cib_linkedin-in.svg"></a>
+                <a href="#" class="button-icon"><img src="./images/ant-design_instagram-filled.svg"></a>
+                <a href="#" class="button-icon"><img src="./images/ant-design_twitter-outlined.svg"></a>
+            </div>
+        </div>
+        <div class="col-11 icon-content">
+            <a class="icon-card" href="#"><img src="./images/google-icon.png"></a>
+            <a class="icon-card" href="#"><img src="./images/amazon-icon.png"></a>
+            <a class="icon-card" href="#"><img src="./images/spotify-icon.png"></a>
+        </div>
+    </div>
+    <div class="container-pa">
+        <h2 class="subtitle-helper" id="id-info">Acerca de mí</h2>
+        <p>Algunas cualidades son creativo, responsable, alegre, optimista y siempre con visión de lograr más de los objetivos planteados, me satisface dar a conocer mi trabajo, no como suficiente, sino como excelente, y para eso, siempre hay que dar más de lo básico.</p>
+    </div>
+     <h2 class="subtitle-helper" id="id-servicios">Servicios</h2>
+         <div class="content-img-scroll">
+             <div class="card">
+                 <div><img src="./images/iconoir_design-pencil.svg"></div>
+                 <h3 class="font-h3">Web Design</h3>
+                 <p class="font-p" >Creación de páginas web e implementación de las mismas</p>
+             </div>
+             <div class="card">
+                 <div><img src="./images/majesticons_speakerphone-line.svg"></div>
+                 <h3 class="font-h3">Marketing</h3>
+                 <p class="font-p" >Buscando la mejor metodología para posicionar sus productos o servicios</p>
+             </div>
+             <div class="card">
+                 <div><img src="./images/feather_search.svg"></div>
+                 <h3 class="font-h3">Research</h3>
+                 <p class="font-p" >Gran capacidad de investigación sobre temas externos al desarrollo web</p>
+             </div>
+         </div>          
+    <h2 class="subtitle-helper margintop-helper" id="id-skill">Mis habilidades</h2>
+    <div class="container-skill">
+        <div class="skills">
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-per"per="65%"style="max-width:65%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                 <div class="skill-per"per="95%"style="max-width:95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Javascript</div>
+              <div class="skill-bar">
+                  <div class="skill-per"per="80%"style="max-width:80%"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+     <h2 class="subtitle-helper margintop-helper" id="id-port">Mi portafolio</h2>
+    <div class="content-scroll-second">
+         <img class="card" src="./images/Rectangle 53.jpg">
+         <img class="card" src="./images/Rectangle 65.jpg">
+         <img class="card" src="./images/Group 47.jpg">
+         <img class="card" src="./images/image 4.jpg">
+    </div>
+    <h2 class="subtitle-helper margintop-helper" id="id-contact">Contacto</h2>
+    <div class="container-contact">
+        <div class="box-left">
+            <img src="./images/phone 3.svg">
+            <h3 class="font-h3">Número celular</h3>
+            <p>55237462984</p>
+        </div>
+        <div class="box-right">
+            <img src="./images/mail 3.svg">
+            <h3 class="font-h3">Email</h3>
+            <p>ejemploo@gmail.com</p>
+        </div>
+    </div>
+    <footer>Hecho con ♥ en Academlo</footer>
+</body>
+</html>
